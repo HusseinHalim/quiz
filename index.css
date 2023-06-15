@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 1rem;
+    background-color: rgb(240, 178, 96);
+}
+main{
+    background-image: linear-gradient(gray,rgba(255, 255, 255, 0.669));
+    margin: 0 25%;
+    padding: 2rem;
+    border-radius: 30px;
+    border: 0.5rem solid greenyellow;
+    box-shadow: 13px 13px 13px green;
+}
+div{
+    display: flex;
+}
+input,button,p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    background-color: aliceblue;
+    color: blue;
+    box-shadow: 1px 6px 5px azure;
+}
+p:hover{
+    background-color: greenyellow;
+    box-shadow: 1px 6px 5px black;
+}
+button{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+}
+
